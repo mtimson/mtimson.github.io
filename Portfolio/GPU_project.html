@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>M Timson &mdash; GPU Programming</title>
+<meta name="description" content="GPU project">
+
+<!-- ******************************************************************************************
+Set the type and color theme here - the Pro version contains additional themes -->
+<link href="css/hawthorne_type4_color6.css" rel="stylesheet">
+<!--  ************************************************************************************* -->
+
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<script src="js/vendor/modernizr.js"></script>
+
+</head>
+<body>
+
+<div class="top-border"></div>
+
+<div class="row">
+	<div class="small-12 medium-12 large-12 small-centered columns">
+		<header>		
+			<h1><a href="index.html">Mitchell C Timson</a></h1>
+			<h2><a href="index.html">Computer Science & Physics Graduate</a></h2>
+			<!--
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png" alt="Your Name Here" /></a>
+			</div>
+			-->
+		</header>
+	</div>
+	<div class="small-12 medium-12 large-12 small-centered columns">
+		<nav>
+			<ul class="inline-list-custom">
+				<li><a href="index.html">Selected Work</a></li>
+				<li><a href="about.html">About</a></li>							
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<div class="row">
+	<div class="small-12 medium-7 large-7 columns">
+		<h2>GPU Programming</h2>
+		<p>
+			A research project into the benefits of heterogeneous parallel computing. For this project, complex optimization algorithms were applied to a variety of difficult to optimize functions in order to examine the benefits of utilizing different hardware configurations to parallelize various sections of the algorithm as well as the evaluations of the target function. Hardware considered included multi-core CPU acceleration and GPU acceleration; speedups incurred by each of these as well as hybrid configurations in which different hardware was used for different parts of the algorithm were examined. Multi-core acceleration was achieved using OpenMP, and GPU acceleration was achieved using NVIDIA CUDA. I received NSERC funding to work on this project as part of my position as a research assistant (see my resume on the "About" page). It also led to a paper which I co-authored with the project supervisor and a colleague, which is currently in review for IEEE Transactions on Parallel and Distributed Systems. The abstract is shown below.
+		</p>
+	</div>
+	<div class="small-12 medium-5 large-5 columns">
+		<div class="lined-list">
+			<ul>
+				<li><strong>Role:</strong> Development</li>
+				<li><strong>Organization:</strong> <a href="http://www.nipissingu.ca/" target="_blank">Nipissing University</a></li>
+				<li><strong>Year:</strong> 2015-2016</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="small-12 medium-12 large-12 columns">
+		<hr class="project-detail-hr" />
+		
+		<!-- Begin project image -->
+		<div class="project-img">
+			<h2>Adaptive Particle Swarm Optimization with Heterogeneous Multicore Parallelism and GPU Acceleration</h2>
+			<h3>Mark P. Wachowiak, <i>Member, IEEE</i>; Mitchell C. Timson; and David J. Duval</h3>
+			<p style="text-align:left"><strong>Abstract</strong>—Much progress has recently been made in global optimization, with particular attention devoted to robust natureinspired stochastic methods for difficult, high-dimensional problems. This paper presents a computational study of an adaptation of one such method, particle swarm optimization (PSO), which is analyzed for parallelization on readily-available heterogeneous parallel computational hardware: specifically, multicore technologies accelerated by graphics processing units (GPUs), as well as Intel Xeon Phi co-processors accelerated with vectorization. In this heterogeneous approach, computationally-intensive, task-parallel components are performed with multicore parallelism and data-parallel elements are executed via co-processing (GPUs or vectorization). A computationally intensive adaptive PSO technique is parallelized according to this schema. In experiments with two high-dimensional and complex functions, large speedups can be obtained. Thus, a heterogeneous approach mitigates the time complexity of PSO adaptations, suggesting that other time-intensive stochastic methods can also benefit from the techniques proposed here.</p>
+		</div>
+		<!-- End project image -->
+		
+	</div>
+</div>
+
+<div class="row">
+	<div class="small-12 medium-12 large-12 columns">
+		<p class="back-to-top-holder"><a class="back-to-top"><i class="fa fa-chevron-circle-up fa-3x"></i></a></p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="small-12 medium-12 large-12 columns">
+		<footer>
+			<ul>
+				<li>&copy; 2016 <a href="index.html">Mitchell Timson</a>. All rights reserved.</li>
+				<li><a href="mailto:mitchell.c.timson@gmail.com"><i class="fa fa-envelope-o"></i> mitchell.c.timson@gmail.com</a></li>
+				
+				<!-- *****************************************************************************************
+				The "Powered by Type & Grids" link in the footer is required in the Free version
+				typeandgrids.com/pirates -->
+				<li>Powered by <a href="http://www.typeandgrids.com" target="_blank">Type &amp; Grids</a></li>
+				<!--  ************************************************************************************ -->
+				<li>Hosted with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></li>
+
+			</ul>
+			<!--div class="social-icons">
+				<a href="http://www.twitter.com/typeandgrids" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+				<a href="http://www.facebook.com/typeandgrids" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+			</div-->
+		</footer>
+	</div>
+</div>
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/hawthorne.js"></script>
+
+</body>
+</html>
